@@ -10,54 +10,31 @@ See <i>/help</i> for commands and more details.</b>
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+𝗙𝗶𝗹𝘁𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀;
 
+/add name reply  -  Add filter for name
+/del name  -  Delete filter
+/delall  -  Delete entire filters (Group Owner Only!)
+/viewfilters  -  List all filters in chat
 
-<b>Basic Commands;</b>
+𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻;
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+/connect groupid  -  Connect your group to my PM. You can also simply use,
+/connect in groups.
+/connections  -  Manage your connections.
 
-
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
-
-
-<b>Extras;</b>
+𝗘𝘅𝘁𝗿𝗮𝘀;
 
 /status  -  Shows current status of your bot (Auth User Only)
-
 /id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
-
-
-<b>© @Mo_Tech_YT</b>
-"""
+/info userid  -  Shows User Information. Use /info as reply to some message for their details!"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : MT Unlimited Filter Bot</b>
+    ABOUT_MSG = """
+Steps;
 
-⭕️<b>Creater :</b> <b>@Mo_Tech_YT</b>    
-
-⭕️<b>Language :</b> <code>Python3</code>
-
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+• Send /batch here
+• Forward the first message of batch.
+• Forward the last message of batch.
 
 """
