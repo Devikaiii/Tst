@@ -50,7 +50,7 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "fstore_data":
+    elif query.data == "manual_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
@@ -68,7 +68,7 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "manual_data":
+    elif query.data == "fstore_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
