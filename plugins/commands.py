@@ -218,11 +218,11 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/MRK-YT/Unlimited-Filter-Bot")
+                        "➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕️", url="https://telegram.me/MadaraFilterBot?startgroup=start")
                 ],
                 [
-                    InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
-                    InlineKeyboardButton("𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="close_data"),
+                    InlineKeyboardButton("Manual", callback_data="manual_data"),
+                    InlineKeyboardButton("Batch", callback_data="fstore_data"),
                 ]                
             ]
         ),
