@@ -221,8 +221,8 @@ async def start(client, message):
                         "➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕️", url="https://telegram.me/MadaraFilterBot?startgroup=start")
                 ],
                 [
-                    InlineKeyboardButton("Manual", callback_data="fstore_data"),
-                    InlineKeyboardButton("Batch", callback_data="manual_data"),
+                    InlineKeyboardButton("Manual", callback_data="manual_data"),
+                    InlineKeyboardButton("Batch", callback_data="fstore_data"),
                 ]                
             ]
         ),
