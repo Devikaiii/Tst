@@ -249,17 +249,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                    InlineKeyboardButton("About Me👨‍💼", callback_data="about_data")
-                ],
-                [
-                    InlineKeyboardButton("🖥️ 𝙷𝚘𝚠 𝚝𝚘 𝙳𝚎𝚙𝚕𝚘𝚢 🖥️", url="https://youtu.be/KrpqqNNLUSU")
+                    InlineKeyboardButton("Command Help", callback_data="help_data")
                 ]
             ]
         ),
         reply_to_message_id=message.message_id
     )
-
 
 @trojanz.on_message(filters.command('fstore') & filters.private)
 async def about(client, message):
@@ -269,13 +264,8 @@ async def about(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/MRK-YT/Unlimited-Filter-Bot")
-                ],
-                [
-                    InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
-                    InlineKeyboardButton("𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="close_data"),
-                ]                
+                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                ]
             ]
         ),
         reply_to_message_id=message.message_id
