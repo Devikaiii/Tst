@@ -221,8 +221,8 @@ async def start(client, message):
                         "➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕️", url="https://telegram.me/MadaraFilterBot?startgroup=start")
                 ],
                 [
-                    InlineKeyboardButton("Manual", callback_data="manual_data"),
-                    InlineKeyboardButton("Batch", callback_data="fstore_data"),
+                    InlineKeyboardButton("Manual", callback_data="fstore_data"),
+                    InlineKeyboardButton("Batch", callback_data="manual_data"),
                 ]                
             ]
         ),
@@ -249,7 +249,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("🏠 Home", callback_data="start_data")
                 ]
             ]
         ),
@@ -264,7 +264,7 @@ async def about(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("🏠 Home", callback_data="start_data")
                 ]
             ]
         ),
