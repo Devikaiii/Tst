@@ -48,3 +48,14 @@ class Config(object):
 
     # To record start time of bot
     BOT_START_TIME = time.time()
+    
+    
+
+    # To FIle store
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+    PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True
+    ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+    FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+
+
+
