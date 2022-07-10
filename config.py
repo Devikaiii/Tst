@@ -52,10 +52,9 @@ class Config(object):
     
 
     # To FIle store
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-    PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True
-    ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-    FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
-
+    
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+    ADMIN = set(str(x) for x in os.environ.get("ADMIN", "").split())
+    CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 
