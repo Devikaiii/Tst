@@ -1,6 +1,5 @@
 import os
-import logging
-from logging.handlers import RotatingFileHandler
+import time
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
