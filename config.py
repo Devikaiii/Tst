@@ -53,7 +53,7 @@ class Config(object):
 
     # To FIle store
     
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+    FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
     ADMIN = set(str(x) for x in os.environ.get("ADMIN", "").split())
     CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
